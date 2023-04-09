@@ -1,0 +1,60 @@
+package hours22.daedeokserver.notice.dto;
+
+import hours22.daedeokserver.file.dto.FileDTO;
+import hours22.daedeokserver.notice.domain.Notice;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+
+@Getter
+@AllArgsConstructor
+public class NoticeResponse {
+    private Long id;
+    private Long user_id;
+    private String title;
+    private String content;
+    private LocalDateTime create_date;
+    private java.util.List<FileDTO> attachment_list;
+    private Summary after;
+    private Summary before;
+
+    public static NoticeResponse of(Notice notice, java.util.List<FileDTO> attachment_list, Summary after, Summary before) {
+        return new NoticeResponse(notice.getId(), 1L, notice.getTitle(), notice.getContent(), notice.getCreateDate(), attachment_list, after, before);
+    }
+
+    @Getter
+    @AllArgsConstructor
+    public static class List {
+        private java.util.List<Summary> notice_list;
+        private Long total_count;
+        private Integer total_page;
+    }
+
+    @Getter
+    @AllArgsConstructor
+    public static class Summary {
+        private Long id;
+        private Long user_id;
+        private String title;
+        private LocalDateTime create_date;
+
+        public static java.util.List<Summary> of(java.util.List<Notice> noticeList) {
+            java.util.List<Summary> summaryList = new ArrayList<>();
+
+            for (Notice notice : noticeList) {
+                summaryList.add(of(notice));
+            }
+
+            return summaryList;
+        }
+
+        public static Summary of(Notice notice) {
+            if (notice == null)
+                return null;
+
+            return new Summary(notice.getId(), 1L, notice.getTitle(), notice.getCreateDate());
+        }
+    }
+}

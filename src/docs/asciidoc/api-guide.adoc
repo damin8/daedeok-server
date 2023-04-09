@@ -1,0 +1,649 @@
+ifndef::snippets[]
+:snippets: ../../../build/generated-snippets
+endif::[]
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 2
+:sectlinks:
+:operation-http-request-title: Example Request
+:operation-http-response-title: Example Response
+
+[[resources]]
+= 22hours daedeok
+
+[[resources-user]]
+== user
+
+[[resources-user-login]]
+=== login
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::user/login[snippets='http-request,http-response']
+
+[[resources-user-reissue]]
+=== reissue
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::user/reissue[snippets='http-request,http-response']
+
+[[resources-user-check]]
+=== check (중복 검사 성공)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::user/check[snippets='http-request,http-response']
+
+[[resources-user-check-fail]]
+=== check (중복 검사 실패)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::user/check-fail[snippets='http-request,http-response']
+
+[[resources-user-find]]
+=== find (회원 관리)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::user/find[snippets='http-request,http-response']
+
+[[resources-user-find-member]]
+=== find Member (회원 정보 조회)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::user/find/member[snippets='http-request,http-response']
+
+[[resources-user-find-duty]]
+=== findDuty (직분 찾기)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::user/find/duty[snippets='http-request,http-response']
+
+[[resources-user-create]]
+=== create
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::user/create[snippets='http-request,http-response']
+
+[[resources-user-update]]
+=== update
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::user/update[snippets='http-request,http-response']
+
+[[resources-user-update-admin]]
+=== update (관리자가 회원의 정보 수정)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::user/update/admin[snippets='http-request,http-response']
+
+[[resources-user-update-role]]
+=== 회원 역할 변경 (관리자) ROLE_MEMBER, ROLE_TUTOR
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::user/admin/update/role[snippets='http-request,http-response']
+
+[[resources-user-update-password]]
+=== update-password
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::user/update/password[snippets='http-request,http-response']
+
+[[resources-user-reset-password]]
+=== 비밀번호 찾기
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::user/admin/reset/password[snippets='http-request,http-response']
+
+[[resources-user-update-password-admin]]
+=== 비밀번호 초기화 (관리자)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::user/admin/update[snippets='http-request,http-response']
+
+[[resources-user-delete]]
+=== 회원 탈퇴
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::user/delete[snippets='http-request,http-response']
+
+[[resources-user-delete-admin]]
+=== 회원 탈퇴 (관리자)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::user/admin/delete[snippets='http-request,http-response']
+
+[[resources-faq]]
+== faq
+
+[[resources-faq-find]]
+=== find
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::faq/find[snippets='http-request,request-parameters,http-response']
+
+[[resources-faq-find-detail]]
+=== find-detail
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::faq/find/detail[snippets='http-request,http-response']
+
+[[resources-faq-save]]
+=== save
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::faq/save[snippets='http-request,http-response']
+
+[[resources-faq-update]]
+=== update
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::faq/update[snippets='http-request,http-response']
+
+[[resources-faq-delete]]
+=== delete
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::faq/delete[snippets='http-request,http-response']
+
+[[resources-qna]]
+== qna
+
+[[resources-qna-find]]
+=== find
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::qna/find[snippets='http-request,request-parameters,http-response']
+
+[[resources-faq-qna-detail]]
+=== qna-detail
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::qna/find/detail[snippets='http-request,http-response']
+
+[[resources-qna-save]]
+=== save
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::qna/save[snippets='http-request,http-response']
+
+[[resources-qna-delete]]
+=== delete
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::qna/delete[snippets='http-request,http-response']
+
+[[resources-qna-update]]
+=== update
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::qna/update[snippets='http-request,http-response']
+
+[[resources-qna-comment-save]]
+=== comment-save
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::qna/save/comment[snippets='http-request,path-parameters,http-response']
+
+[[resources-qna-comment-delete]]
+=== comment-delete
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::qna/delete/comment[snippets='http-request,http-response']
+
+[[resources-qna-comment-update]]
+=== comment-update
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::qna/update/comment[snippets='http-request,http-response']
+
+[[resources-notice]]
+== notice
+
+[[resources-notice-find]]
+=== find
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::notice/find[snippets='http-request,request-parameters,http-response']
+
+[[resources-notice-tutor-find]]
+=== find-tutor-notice
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::notice/tutor/find[snippets='http-request,request-parameters,http-response']
+
+[[resources-notice-find-detail]]
+=== notice-detail
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::notice/find/detail[snippets='http-request,http-response']
+
+[[resources-notice-tutor-find-detail]]
+=== tutor-notice-detail
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::notice/tutor/find/detail[snippets='http-request,http-response']
+
+[[resources-notice-save]]
+=== save
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::notice/save[snippets='http-request,http-response']
+
+[[resources-notice-delete]]
+=== delete (공지 삭제)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::notice/delete[snippets='http-request,http-response']
+
+[[resources-notice-update]]
+=== update
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::notice/update[snippets='http-request,http-response']
+
+[[resources-notice-tutor-save]]
+=== save-tutor-notice
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::notice/tutor/save[snippets='http-request,http-response']
+
+[[resources-notice-tutor-delete]]
+=== delete-tutor-notice (강사 공지 삭제)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::notice/tutor/delete[snippets='http-request,http-response']
+
+[[resources-notice-tutor-update]]
+=== update-tutor-notice
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::notice/tutor/update[snippets='http-request,http-response']
+
+[[resources-lecture-notice-comment-save]]
+=== save-tutor-notice-comment
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::notice/tutor/save/comment[snippets='http-request,path-parameters,http-response']
+
+[[resources-lecture-notice-comment-delete]]
+=== delete-tutor-notice-comment (강사 공지 댓글 삭제)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::notice/tutor/delete/comment[snippets='http-request,http-response']
+
+[[resources-lecture-notice-comment-update]]
+=== update-tutor-notice-comment
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::notice/tutor/update/comment[snippets='http-request,http-response']
+
+[[resources-category]]
+== category
+
+[[resources-category-find]]
+=== find
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::category/find[snippets='http-request,request-parameters,http-response']
+
+[[resources-category-find-all]]
+=== 카테고리 전체 조회 (개설할때 필요)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::category/find/all[snippets='http-request,http-response']
+
+[[resources-category-find-all-qna]]
+=== 질문과 답변 카테고리 조회
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::category/find/all/qna[snippets='http-request,http-response']
+
+[[resources-category-find-all-board]]
+=== 강의 게시판 카테고리 조회
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::category/find/all/board[snippets='http-request,http-response']
+
+[[resources-category-find-detail]]
+=== 카테고리 상세 조회
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::category/find/detail[snippets='http-request,http-response']
+
+[[resources-category-save]]
+=== save
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::category/save[snippets='http-request,http-response']
+
+[[resources-category-delete]]
+=== delete
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::category/delete[snippets='http-request,http-response']
+
+[[resources-category-update]]
+=== update
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::category/update[snippets='http-request,http-response']
+
+[[resources-lecture]]
+== lecture
+
+[[resources-lecture-find]]
+=== find
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/find[snippets='http-request,request-parameters,http-response']
+
+[[resources-lecture-find-custom]]
+=== find-custom
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/custom[snippets='http-request,http-response']
+
+[[resources-lecture-find-possible]]
+=== find-possible
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/find/possible[snippets='http-request,request-parameters,http-response']
+
+[[resources-lecture-find-complete]]
+=== find-complete
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/find/complete[snippets='http-request,request-parameters,http-response']
+
+[[resources-lecture-find-finish]]
+=== find-finish
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/find/finish[snippets='http-request,request-parameters,http-response']
+
+[[resources-lecture-main]]
+=== find-main
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/main[snippets='http-request,http-response']
+
+[[resources-lecture-find-sidebar]]
+=== find-sidebar
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/find/sidebar[snippets='http-request,http-response']
+
+[[resources-lecture-board-find]]
+=== find-board
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/find/board[snippets='http-request,path-parameters,http-response']
+
+[[resources-lecture-user-find]]
+=== find-user
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/find/user[snippets='http-request,path-parameters,http-response']
+
+[[resources-lecture-user-attendance-find]]
+=== find-user-attendance (학생)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/find/attendance[snippets='http-request,path-parameters,http-response']
+
+[[resources-lecture-plan-find]]
+=== find-plan
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/find/plan[snippets='http-request,path-parameters,http-response']
+
+[[resources-lecture-plan-user-find]]
+=== find-plan-user
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/find/plan/user[snippets='http-request,path-parameters,http-response']
+
+[[resources-lecture-find-detail]]
+=== lecture-detail
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/find/detail[snippets='http-request,http-response']
+
+[[resources-lecture-find-update]]
+=== lecture-detail-update
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/find/update[snippets='http-request,http-response']
+
+[[resources-lecture-find-board-detail]]
+=== lecture-board-detail
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/find/detail/board[snippets='http-request,http-response']
+
+[[resources-lecture-find-info-detail]]
+=== lecture-detail (handout)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/find/detail/info[snippets='http-request,http-response']
+
+[[resources-lecture-find-online-detail]]
+=== lecture-online-detail
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/find/plan/online[snippets='http-request,http-response']
+
+[[resources-lecture-save]]
+=== save
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/save[snippets='http-request,http-response']
+
+[[resources-lecture-delete]]
+=== delete
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/delete[snippets='http-request,http-response']
+
+[[resources-lecture-update]]
+=== update
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/update[snippets='http-request,http-response']
+
+[[resources-lecture-join]]
+=== join
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/join[snippets='http-request,path-parameters,http-response']
+
+[[resources-lecture-cancel]]
+=== cancel
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/cancel[snippets='http-request,path-parameters,http-response']
+
+[[resources-lecture-cancel-member]]
+=== cancel (학생 스스로 철회)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/cancel/member[snippets='http-request,path-parameters,http-response']
+
+[[resources-lecture-finish]]
+=== finish
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/finish[snippets='http-request,path-parameters,http-response']
+
+[[resources-lecture-duration]]
+=== duration (영상 강의 % 저장)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/save/duration[snippets='http-request,path-parameters,http-response']
+
+[[resources-lecture-board-save]]
+=== save-board
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/save/board[snippets='http-request,http-response']
+
+[[resources-lecture-board-delete]]
+=== delete-board (강의 게시판 삭제)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/delete/board[snippets='http-request,http-response']
+
+[[resources-lecture-board-update]]
+=== update-board
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/update/board[snippets='http-request,http-response']
+
+[[resources-lecture-board-comment-save]]
+=== save-board-comment
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/save/board/comment[snippets='http-request,path-parameters,http-response']
+
+[[resources-lecture-board-comment-delete]]
+=== delete-board-comment (강의 게시판 댓글 삭제)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/delete/board/comment[snippets='http-request,http-response']
+
+[[resources-lecture-board-comment-update]]
+=== update-board-comment
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/update/board/comment[snippets='http-request,path-parameters,http-response']
+
+[[resources-lecture-plan-user-attendance]]
+=== plan-user-attendance (강의 출석 강사용)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/save/plan/user[snippets='http-request,path-parameters,http-response']
+
+[[resources-lecture-plan-user-attendance-student]]
+=== plan-user-attendance-member (강의 출석 학생용)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::lecture/save/plan/user/attendance[snippets='http-request,path-parameters,http-response']
+
+[[resources-image]]
+== image
+
+[[resources-image-find]]
+=== find
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::image/find[snippets='http-request,http-response']
+
+[[resources-image-save]]
+=== save
+
+operation::image/save[snippets='http-request,http-response']
+
+[[resources-popup]]
+== popup
+
+[[resources-popup-find]]
+=== find
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::popup/find[snippets='http-request,http-response']
+
+[[resources-popup-save]]
+=== save
+
+operation::popup/save[snippets='http-request,http-response']
+
+[[resources-division]]
+== division
+
+[[resources-division-find]]
+=== find
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::division/find[snippets='http-request,http-response']
+
+[[resources-division-find-detail]]
+=== 상위소속으로 소속 찾기 (수정용)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::division/find/detail[snippets='http-request,http-response']
+
+[[resources-division-delete]]
+=== delete
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::division/delete[snippets='http-request,http-response']
+
+[[resources-division-save]]
+=== save
+
+operation::division/save[snippets='http-request,http-response']
+
+[[resources-division-update]]
+=== update
+
+operation::division/update[snippets='http-request,http-response']
+
+[[resources-file]]
+== file
+
+[[resources-file-dummy]]
+=== dummy
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::file/dummy[snippets='http-request,http-response']
+
+[[resources-file-real]]
+=== real (Dummy 폴더에 있는 파일들을 real 폴더로 옮기기)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::file/real[snippets='http-request,http-response']
+
+[[resources-file-update]]
+=== update (새로운 파일들이 있는 Dummy 에서 Real 로 바꾸고, 삭제할 파일들은 삭제하기)
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::file/update[snippets='http-request,http-response']
+
+[[resources-file-certificate]]
+=== certificate
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::file/certificate[snippets='http-request,http-response']
+
+[[resources-file-certificate-delete]]
+=== certificate-delete
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::file/certificate/delete[snippets='http-request,http-response']
+
+[[resources-academy]]
+== 아카데미 & 교육비전
+
+[[resources-academy-find-detail]]
+=== 아카데미 소개 상세 조회
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::academy/find/detail[snippets='http-request,http-response']
+
+[[resources-academy-vision-find-detail]]
+=== 교육비전 상세 조회
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::academy/find/detail/vision[snippets='http-request,http-response']
+
+[[resources-academy-update]]
+=== 아카데미 소개 업데이트
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::academy/update[snippets='http-request,http-response']
+
+[[resources-academy-update-eduvision]]
+=== 교육비전 업데이트
+
+//generated-snippets 경로에 있는 파일 중 문서에 포함시킬 내용을 입력해줍니다.
+operation::academy/update/vision[snippets='http-request,http-response']
